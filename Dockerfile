@@ -1,4 +1,4 @@
-FROM dclong/jupyter
+FROM dclong/jupyter:conda3
 
 RUN conda install -y -c conda-forge \
         nodejs \
